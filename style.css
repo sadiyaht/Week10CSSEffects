@@ -1,0 +1,47 @@
+/* 
+Image effect: I made the image rotate a little when hovered
+Button effect: button changes color and grows slightly
+*/
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+img {
+    width: 250px;
+    transition: 0.5s;
+}
+
+img:hover {
+    transform: rotate(5deg);
+}
+
+button {
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
+
+/* link hover requirement */
+a {
+    color: blue;
+}
+
+a:hover {
+    color: #FFA500;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: lightgray;
+}
